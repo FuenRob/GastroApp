@@ -1,0 +1,28 @@
+img.logo {
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Style desktop */
+@media only screen and (min-width: 768px) {
+    .icon-hamburger{
+        display: none;
+    }
+}
+
+/* Style for mobile */
+@media only screen and (max-width: 768px) {
+    button#parent1 {
+        display: none;
+    }
+}
+  

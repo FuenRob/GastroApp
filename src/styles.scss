@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap.scss";
+@import '~ngx-bar-rating/themes/br-default-theme.css';
+@import '~ngx-bar-rating/themes/br-bootstrap-theme.css';
+/* change variable */
+$indigo:  #673ab7 !important;
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Add fixed height in card */
+.card{
+    height: 100%;
+}
+
+/* Change color in btn-primary */
+.btn-primary{
+    background-color: $indigo;
+    border-color: $indigo;
+}
+
+.btn-primary:hover{
+    background-color: $indigo;
+    border-color: $indigo;
+}
+
+.btn-primary:active{
+    background-color: $indigo;
+    border-color: $indigo;
+}
